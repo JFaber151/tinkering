@@ -25,6 +25,22 @@ main p{
     margin-top: .35em;
 }
 
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.container div {
+  padding: 20px;
+  text-align: center;
+}
+
 nav{
     background-color: antiquewhite; /*might end up changing this*/
 }
