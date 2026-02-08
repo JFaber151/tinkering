@@ -18,7 +18,7 @@ body{
 }
 
 main{
-    padding: min(5em, 7%);
+    padding: min(em, 7%);
 }
 
 main p{
