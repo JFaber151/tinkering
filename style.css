@@ -25,7 +25,7 @@ main p{
     margin-top: .35em;
 }
 
-.center{
+div.center{
     display: flex;
     justify-content: center;
     align-items: center;
