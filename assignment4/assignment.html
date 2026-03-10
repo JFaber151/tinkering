@@ -18,6 +18,58 @@
     </ul>
 </nav>
 
-<div class="center"><img src="images/ass4-meme.png" width="80%"> </div>
+
+<div class="center"><h1>Programming metaphor</h1></div>
+<div class="container">
+    <div>
+        <div>
+            <h2>Basic memory</h2> <br>
+            To create a programming metaphor, I adapted my building blocks to be show memory storage <br>
+        <br>
+            The initial idea is quite simple. Since the building block's most basic shape is linear, <br>
+            it already can be used to represent memory. However, it misses the capability to actually store something. <br>
+            <br>
+            To give the block this capability, we create a space to store something in the block. <br>
+            Or rather, we remove space from the block. <br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br>
+                        <h2>arrays</h2> <br>
+            Now when multiple of these blocks are put behind one another it can represent basic memory, but we can go further. <br>
+            We also have a representation of a memory block array, by putting a number of blocks behind one another and adding a basic
+            building block that functions as Null termination of the array<br>
+            <br>
+            What about a linked list? We need some way to physically represent pointers. Since pointers just point to a certain bit of memory, 
+            we can represent this by some sort of connection that's seperate from the regular linear connection. <br>
+            <br>
+            In practise, this means we can just add another dovetail connection on to the side of the memory block. 
+            This should just be seen as a pointer and not a splitting memory path, so we show this by making this connection 
+            just one dovetail instead of the regular two connecting points.
+
+        </div>
+        <br>
+    </div>
+    <div> <img src="images/full_view.jpg" width="50%"> 
+          <img src="images/linked_list.jpg" width="50%"> 
+          <img src="images/null_terminated.jpg" width="50%">
+    </div>
+
+</div>
+<div class="container">
+    <div>
+        <div>    
+            <h2>Issues</h2> <br>
+            <br>
+            Sadly, one of the prints has issues when it comes to the dovetail fit, shown on the right side of the picture. 
+            When compared with the other pieces, left, it's visible that the dovetail connections are slightly rounded over. <br>
+            On a second print, this issue persists. So perhaps there is an issue with the model of this block <br>
+            or perhaps the printing just ran out of luck.
+        </div>
+    </div>
+    <div> 
+        <img src="images/dovetail_comparison.jpg" width="50%">
+    </div>
+</div>
 </body>
 </html> 
