@@ -30,7 +30,7 @@
             it already can be used to represent memory. However, it misses the capability to actually store something. <br>
             <br>
             To give the block this capability, we create a space to store something in the block. <br>
-            Or rather, we remove space from the block. <br>
+            Or rather, we remove material from the block. <br>
             <br><br>
             <br><br>
             <br><br>
@@ -75,6 +75,98 @@
 <div class="center"><h1>Design methods overview</h1></div>
 <div class="center"> 
         <img src="images/Mindmap.png" width="50%">
+</div>
+
+<div class="center"><h1>Design methods in robotics</h1></div>
+<br>
+    <div class="center"><strong>Robust robot navigation in real-world environments</strong> <br></div>
+    <div class="center">
+        A common problem in robotic navigation are non controlled environments.<br>
+        This can range from simply an uneven ground to outright rocky terrain <br>
+        with obstacles. A tinkering environment will be set up to function as <br>
+        a mock version of the true environment. A number of materials will be <br>
+        given that can represent the possible ways of moving around the space, <br>
+        this could be different types of wheels, or even robotic legs <br>
+        that can be easily attached to a platform that represents the body of <br>
+        the robot. Additionally, different types of materials that represent <br>
+        obstacles can be supplied such that the environment can be made more <br>
+        difficult or more realistic. This version of tinkering would allow the <br>
+        people working on the issue of the navigation, to get hands on and try <br>
+        out different ideas and combinations to solve the challenge.<br>
+        The target group would be people developing robust robot navigation tools. <br>
+        Given that this group would already have experience with robotic control, <br>
+        it is not likelely that they will need additional scaffolding in how to <br>
+        interact with the robotic parts or the environment. Beneficial scaffolding  <br>
+        could be instructions on how to exactly connect to motorized parts to <br>
+        the main body. If the obstacles get difficult enough that they need to be <br>
+        avoided instead of traversed, an introduction on pathfinding algorithms,<br>
+         like the A*-algorithm, could be beneficial. <br>
+        <br>
+        <br>
+        A suitable goal would be to have a robot that can reliably cross the <br>
+        most difficult environments. Suitable assignments to work towards this <br>
+        goal would be starting by  getting a robot that can cross an empty area <br>
+        and then adding more obstacles for each following assignment. <br>
     </div>
+<br>
+    <div class="center"><strong>Adaptive Grasping for Unknown Objects</strong> <br></div>
+    <div class="center">
+        Robots often work on picking up different objects.<br> If the shape, size and materials of these objects are known, <br>
+        then it is not especially difficult to create a way <br> to pick up the objects. However, if the objects that  <br>
+        needs to be picked up is not always the same item, <br>then things get more difficult.
+        For these cases, special <br> ways of grasping the object are required. <br>
+        By using a tinkering playground, different concepts for how to <br> create a gripper
+        can emerge.
+        As for the tinkering materials, <br> the tinkerers would be supplied with 
+        a number of different <br>flexible materials as well as firm materials, and 
+        a number of <br>different sensors. Rather than supplying the a gripper without claws, <br>
+        the participants would be supplied with a number of motors that <br>can be attached together. 
+        This should give rise to different types of gripper <br>actuation that may work better than the standard pincer type gripper. <br>
+        Since this sort of gripper can have a lot of variability based on <br> 
+        the type of object that needs to be picked up, physically tinkering <br>
+        with possible designs can lead to more surprising outcomes. <br>
+        The target group would be people working with robots that need to <br>
+        be able to grasp different and possibly fragile objects. While <br>
+        they would likely be familiar with the different types of materials <br>
+        and sensors, some scaffolding in the form of a guide on making a basic <br>
+        pincer gripper would be quite effective. <br>
+        A suitable goal would be creating a gripper that can pick up multiple <br>
+        different types of fragile objects one after another. To achieve this, <br>
+        a first assignment could be picking up something in the first place. <br>
+        Followed by assignments where the requirement is to pick up increasingly <br>
+        odd shaped items.
+    </div>
+<br>
+    <div class="center"><strong>Failure recovery</strong> <br></div>
+    <div class="center">
+        For autonomous robots it is important to be able to handle unexpected <br>
+        situations. In case of a complete failure in one of those situations, <br>
+        it is a benefit if a robot can recover from that failure without <br>
+        external input. A comman failure method is robots getting stuck <br>
+        during their pathfinding or to physically get stuck. Think of a roomba <br>
+        stuck on a 'cliff' when it slightly hangs over an edge. To design <br>
+        a solution for this type of failure recovery after getting stuck, <br>
+        tinkering could yield good results by virtue of its hands-on nature. <br>
+        To keep the 'unstucking' methods as broad as possible, part of the <br>
+        suppplied material would be a number of different robots such that <br>
+        the manner in which they get stuck will differ. Then, further materials <br>
+        would be supplied that can be used to have the robot perform failure <br>
+        recovery. These materials could be different actuators and static <br> 
+        hardware.<br>
+        The target group would be people working with autonomous robots. <br>
+        For the scaffolding, some ways in which robots perform failure <br>
+        recovery methods could be recreated. This could for instance be <br>
+        recreating examples from the way robotdogs right themselves after <br>
+        falling over, but it would depend on what exact type of robots <br>
+        would be available. A perfect goal would be finding a way to <br>
+        enable all the possible robots to not get stuck with the same solution.<br>
+        A reasonable goal would be to find a way for each of the robots <br>
+        to complete some sort of failure recovery, which would double as <br>
+        the different suitable assignments.  
+    </div>
+    <br><br>
+    <br><br>
+
 </body>
+
 </html> 
